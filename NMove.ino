@@ -4,7 +4,7 @@
 L3G gyro;
 
 const float DPS_PER_LSB = 0.00875f;  // for ±245 dps range
-const float EMA_ALPHA   = 0.1f;      // smoothing
+const float EMA_ALPHA   = 0.2f;      // smoothing
 float lastX = 0, lastY = 0, lastZ = 0;
 bool firstRead = true;
 float scoreEMA = 0.0f;
