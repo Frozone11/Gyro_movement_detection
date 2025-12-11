@@ -26,7 +26,9 @@ A simple Arduino sketch that reads raw gyroscope data from the L3G sensor, appli
 ---
 ## Serial Output Example
 EMA=0.132  state=IDLE
+
 EMA=1.204  state=ACTIVE
+
 EMA=0.843  state=IDLE
 
 ---
